@@ -1,0 +1,20 @@
+¡Hola!
+Respecto a los Archivos:
+- Están creados con la intención de ser utilizados en la Parte en Python del T.P Final
+ 
+- ConError
+			-LaberintoErrorFormatoSinSalida: Carece del carácter '2' -> Salida
+			-LaberintoErrorFormatoFilasColumnasMal: Tiene las columnas o filas 									desproporcionadas 
+			(la verificación es una sola para ambos casos)
+			-LaberintoErrorFormatoEstructurasMal: Alguno de sus carácteres no son 012 
+- Sin Error
+			-LaberintoEntradaSalida: La Entrada es la Salida
+			-LaberintoEntradaObstaculo: La Entrada es un Obstáculo
+			-LaberintoEntradaRodeada: La Entrada esta rodeada de obstáculos
+			-LaberintoSalidaRodeada: La Salida esta rodeada de Obstáculos
+			-LaberintoSalidaObstaculizadaRodeada: La Salida esta rodeada de Obstáculos
+				y estos rodeados de caminos
+			-LaberintoConSaltos: El Archivo tiene saltos de linea
+
+- Hay una función interna en el programa que corrobora que el Formato del laberinto sea correcto.   Los archivos EF son las pruebas donde esta función debería dar error, mientras que
+los archivos NEF lo contrario.
